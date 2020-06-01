@@ -1,0 +1,11 @@
+1. we download the data from the kaggle using kaggle.json
+2. unzip the data.
+3. import the necessary libraries
+4. load the data into train and test lists using cv2 and tf.image
+5. convert these train and test lists to tensorflow datsets
+6. format the images in the datasets
+7. make them into batches
+8. then we do transfer learning with mobilenetv2
+9. at the end of our base model we add 2 layers, one with 32 neurons and another with 1 neuron.
+10. when trained for 15 epochs we get 95% accuracy.
+11. but i have trained for 20 epochs to see if any there is any improvement.
